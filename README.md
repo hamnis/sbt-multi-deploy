@@ -9,3 +9,7 @@ To reproduce change in project/Build.scala
 
 into something useful.
 
+The problem seems to occur with the first deployment, the subsequent seems to work.
+
+Gpg signature is required.
+

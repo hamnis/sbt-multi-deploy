@@ -38,7 +38,7 @@ object Build extends sbt.Build {
   // Things we care about primarily because Maven Central demands them
   lazy val mavenCentralFrouFrou = Seq(
     homepage := Some(new URL("http://github.com/hamnis/sbt-multi-deploy")),
-    startYear := Some(2011),
+    startYear := Some(2013),
     licenses := Seq(("Apache 2", new URL("http://www.apache.org/licenses/LICENSE-2.0.txt"))),
     pomExtra <<= (pomExtra, name, description) {(pom, name, desc) => pom ++ Group(
       <scm>
